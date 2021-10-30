@@ -16,7 +16,7 @@ import com.example.decemo.R
 
 @EpoxyModelClass(layout = R.layout.epoxy_galerija_item)
 abstract class GalerijaViewModel:EpoxyModelWithHolder<GalerijaViewModel.ViewHolder>() {
-    private val URL = "https://bekmen.rs/api/slike/"
+    private val URL = /*Censure*/
 
     @EpoxyAttribute(EpoxyAttribute.Option.DoNotHash)
     lateinit var url:String
@@ -31,18 +31,12 @@ abstract class GalerijaViewModel:EpoxyModelWithHolder<GalerijaViewModel.ViewHold
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(holder.img)
 
-     //   Glide.with(context)
-             //   .load(URL + url)
-            //    .diskCacheStrategy(DiskCacheStrategy.ALL)
-             //   .into(holder.img2)
     }
     class ViewHolder:EpoxyHolder(){
         lateinit var img:ImageView
-        lateinit var img2:ConstraintLayout
 
         override fun bindView(itemView: View) {
             img = itemView.findViewById(R.id.galerijaImg)
-            img2 = itemView.findViewById(R.id.galerijaImgcons)
         }
 
     }
