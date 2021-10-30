@@ -8,6 +8,8 @@ DeCemo je aplikacija koja nam nudi mnogućnost da:
 * Prikaz događaja
 * Još mnogo toga...
 
+### Ukoliko želite da testirate aplikaciju možete nam se obratiti putem mejla malexic.000@gmail.com kako bi dobili demo verziju aplikacije
+
 <img src="gif/Screen_Recording_20211030-170904_DeCemo (1).gif"/>
 
 ## Kod
