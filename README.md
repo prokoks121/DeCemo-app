@@ -24,8 +24,8 @@ koja podrazumeva korišćenje:
   <img src="gif/MVVM-diagram.png" height="350px"/>
 
   
-Umesto korišćenja RecyclerView Adapter koristili smo [Epoxy Airbnb](https://github.com/airbnb/epoxy), što nam je pomoglo kako bi uprostili naš kod i ostvarili bolji učinak
-Takodje moramo da pomenemo i [Glide](https://github.com/bumptech/glide) koje uveliko olakšava dobijanja slika uz pomoc API-a
+Umesto korišćenja RecyclerView Adapter koristili smo [Epoxy Airbnb](https://github.com/airbnb/epoxy), što nam je pomoglo kako bi uprostili naš kod i ostvarili bolji učinak.
+Takodje moramo da pomenemo i [Glide](https://github.com/bumptech/glide) koje uveliko olakšava dobijanja slika uz pomoc API-a.
 Za navođenje između fragmenata koristili smo JetPack Navigaion Component, što nam omogućava komunikaciju između fragmenata, slanje potrebnig podataka i slično
 
 <img src="gif/Screen_Recording_20211030-173217_DeCemo (1).gif"/>
