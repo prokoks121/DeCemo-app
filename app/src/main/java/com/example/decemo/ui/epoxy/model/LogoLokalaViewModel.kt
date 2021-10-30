@@ -14,7 +14,7 @@ import com.example.decemo.R
 @EpoxyModelClass(layout = R.layout.epoxy_logo_lokala_item)
 abstract class LogoLokalaViewModel: EpoxyModelWithHolder<LogoLokalaViewModel.ViewHolder>(){
 
-    private val URL = "https://bekmen.rs/api/slike/"
+    private val URL = /*Censure*/
 
     @EpoxyAttribute
     lateinit var context: Context
@@ -29,9 +29,6 @@ abstract class LogoLokalaViewModel: EpoxyModelWithHolder<LogoLokalaViewModel.Vie
             .diskCacheStrategy(DiskCacheStrategy.ALL)
             .into(view.slika)
     }
-
-
-
 
     class ViewHolder : EpoxyHolder() {
         lateinit var slika: ImageView
