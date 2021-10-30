@@ -4,7 +4,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object Connect {
-    const val url = "https://bekmen.rs/api/"
+    const val url = /*Censure*/
     private val retrofit by lazy {
         Retrofit.Builder()
                 .baseUrl(url)
